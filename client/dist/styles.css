@@ -347,8 +347,14 @@ body {
     position: fixed;
     background-color: #3FB8AF;
     height: 20%;
-
-    top: 0%;
+    overflow: scroll;
+    top: 35%;
     left: 75%;
     width: 23%
+}
+
+#dealer_chip {
+  position: relative;
+  top: 50%;
+  left: 30%;
 }

@@ -15,7 +15,7 @@ app.get('/repos', function (req, res) {
   // This route should send back the top 25 repos
 });
 
-let port = 1128;
+let port = 3000;
 
 app.listen(port, function() {
   console.log(`listening on port ${port}`);
